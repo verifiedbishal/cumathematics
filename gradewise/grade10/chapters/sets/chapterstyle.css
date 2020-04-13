@@ -1,0 +1,133 @@
+
+
+.accordion{
+    background-color: rgba(236, 222, 240, 0.74);
+}
+.accordion ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.accordion ul li{
+    padding: 10px;
+}
+.accordion ul li a{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(31, 5, 32);
+}
+.accordion ul li a:hover{
+    text-decoration: underline;
+    background-color: rebeccapurple;
+    color: #fff;
+    transition: all .3s;
+}
+
+
+/* Chapter Start Style */
+.chapter__start{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px 40px;
+}
+.chapter__start--single{
+    padding: 10px;
+    border: 1px solid rgba(220, 222, 223, 0.788);
+    border-radius: 4px;
+    background-color: rgba(229, 231, 231, 0.822);
+    margin: 20px;
+}
+.chapter__discussion{
+    width: 70%;
+    padding: 20px 50px;
+}
+.chapter__discussion h2{
+    font-size: 32px;
+    padding: 16px 0;
+    color: rebeccapurple;
+}
+.chapter__discussion--lists ul{
+    list-style: none;
+    display: flex;
+    text-align: justify;
+    flex-wrap: wrap;
+}
+.chapter__discussion--lists ul li{
+    position: relative;
+    padding: 0 10px 18px 28px;
+    width: 50%;
+    font-size: 18px;
+}
+.chapter__discussion--lists ul li i{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 22px;
+}
+.chapter__tools{
+    width: 30%;
+    padding: 20px 50px;
+    height: 100%;
+}
+.chapter__tools ul li{
+    padding: 4px;
+}
+.chapter__tools ul li a{
+    padding: 4px;
+    text-decoration: none;
+    color: #0c171a;
+}
+.chapter__tools ul li a:hover{
+    text-decoration: underline;
+}
+@media (max-width : 1200px){
+    .chapter__start{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+    }
+    .chapter__start--single{
+        margin: 5px;
+    }
+    .chapter__discussion{
+        width: 100%;
+        padding: 16px;
+    }
+    .chapter__discussion h2{
+        font-size: 20px;
+    }
+    .chapter__discussion--lists ul li{
+        font-size: 16px;
+        text-align: justify;
+    }
+    .chapter__discussion--lists ul li{
+        width: 90%;
+    }
+    .chapter__discussion--lists ul li i{
+        font-size: 16px;
+    }
+    .chapter__tools{
+        width: 100%; 
+        padding: 20px 10px;
+    }
+    .chapter__tools ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        list-style: none;
+        padding-top: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
