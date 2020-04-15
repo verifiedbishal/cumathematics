@@ -215,7 +215,7 @@
 .examples__single .solution{
     padding-left: 10px;
 }
-@media (max-width : 764px){
+@media (max-width : 320px){
     iframe{
         width: 380px;
         height: 214px;
