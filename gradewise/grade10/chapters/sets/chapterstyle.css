@@ -130,6 +130,8 @@
     display: flex;
     flex-direction: column;
     padding: 20px 0;
+    font-family: "Sofia Pro",HelveticaNeueBold,HelveticaNeue-Bold,"Helvetica Neue Bold",HelveticaBold,Helvetica-Bold,"Helvetica Bold",HelveticaNeue,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 
 .intro__single{
@@ -187,7 +189,6 @@
 }
 .def p{
     font-size: 18px;
-    letter-spacing: 1px;
 }
 .def p i{
     color: rgb(255, 38, 0);

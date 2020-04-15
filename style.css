@@ -10,7 +10,7 @@ body{
 
 /* Navbar styling */
 .navbar{
-    box-shadow: 0 10px 14px 0 rgba(223, 210, 210, 0.459);
+    box-shadow: 0 4px 8px 0 rgba(223, 210, 210, 0.459);
     border-bottom: 1px solid rgb(214, 218, 217);
     display: flex;
     flex-direction: row;
