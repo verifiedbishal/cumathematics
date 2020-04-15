@@ -125,7 +125,105 @@
 
 
 
+/* Intro Styles */
+.intro{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
 
+.intro__single{
+    margin: 5px;
+    background-color: #fff;
+}
+
+.intro__head h2{
+    height: 36px;
+    line-height: 36px;
+    border: none;
+    margin: 5px 0;
+    font-size: 26px;
+    background-color: rgb(57, 223, 235);
+    color: #000;
+    text-align: left;
+    letter-spacing: 1px;
+}
+.intro__head h2 span{
+    padding: 5px 15px;
+    background-color: rgb(17, 117, 112);
+    color: #fff;
+    text-align: center;
+}
+.intro__content{
+    border: 1px solid transparent;
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+}
+.intro__content h3{
+    padding: 5px 0;
+    font-size: 20px;
+}
+.intro__content ul{
+    padding-left: 10px 0;
+    margin: 20px;
+}
+.intro__content ul li{
+    font-size: 18px;
+    line-height: 1.2;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.def{
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #ebebeb;
+}
+.intro__content p{
+    font-size: 18px;
+    padding: 5px 0;
+}
+.def p{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.def p i{
+    color: rgb(255, 38, 0);
+    font-weight: bold;
+}
+
+/* Examples Styling */
+.examples__single{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 1px solid rgb(185, 174, 174);
+}
+
+.examples__single h1{
+    color: rgb(40, 130, 133);
+    font-size: 20px;
+}
+
+.examples__single h2 .tab__right{
+    padding-left: 30px;
+    font-style: italic;
+    font-weight: 600;
+}
+.examples__single span.sol{
+    color: red;
+}
+.examples__single .solution{
+    padding-left: 10px;
+}
+@media (max-width : 764px){
+    iframe{
+        width: 380px;
+        height: 214px;
+    }
+    .intro__content img{
+        width: 380px;
+    }
+}
 
 
 
