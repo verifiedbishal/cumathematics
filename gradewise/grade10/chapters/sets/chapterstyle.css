@@ -129,11 +129,11 @@
 .intro{
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .intro__single{
-    margin: 5px;
+    margin: 5px 0;
     background-color: #fff;
 }
 
@@ -215,10 +215,11 @@
 .examples__single .solution{
     padding-left: 10px;
 }
-@media (max-width : 320px){
+@media (max-width : 480px){
     iframe{
-        width: 300px;
-        height: 180px;
+        padding: 5%;
+        width: 90%;
+        height: auto;
     }
     .intro__content img{
         width: 300px;

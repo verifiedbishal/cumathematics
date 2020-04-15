@@ -90,6 +90,26 @@ body{
         font-size: 16px;
     }
 }
+@media (max-width : 480px){
+    .navbar{
+        height: 10vh;
+    }
+    .navbar__left{
+        height: 10vh;
+    }
+    .navbar__left .navbar__logo{
+        height: 10vh;
+    }
+    .navbar__links{
+        height: 10vh;
+    }
+    .navbar__links ul li{
+        margin: 5px;
+    }
+    .navbar__links ul li a{
+        font-size: 14px;
+    }
+}
 
 /* Section Style */
 .section{
