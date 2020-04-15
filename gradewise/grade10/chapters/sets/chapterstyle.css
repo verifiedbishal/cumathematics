@@ -218,7 +218,8 @@
 }
 @media (max-width : 480px){
     iframe{
-        width: 100%;
+        padding: 3px;
+        width: 474px;
         height: auto;
     }
     .intro__content img{
