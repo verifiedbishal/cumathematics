@@ -106,6 +106,9 @@ body{
     .navbar__links ul li{
         margin: 5px;
     }
+    .navbar__links ul li:first-child{
+        display: none;
+    }
     .navbar__links ul li a{
         font-size: 14px;
     }
