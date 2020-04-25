@@ -136,6 +136,7 @@ body{
     font-size: 40px;
     color: rgb(6, 4, 26);
     letter-spacing: 3px;
+    text-align: center;
 }
 .input__body{
     width: 60%;
@@ -181,9 +182,11 @@ body{
 @media (max-width : 764px){
     .input__head{
         font-size: 32px;
+        text-align: center;
     }
     .input__body{
         font-size: 20px;
+        text-align: center;
     }
     .input__box{
         width: 90%;
@@ -203,10 +206,14 @@ body{
 @media (max-width : 640px){
     .input__head{
         font-size: 24px;
+        width: 80%;
+        margin: 10%;
     }
     .input__body{
         font-size: 18px;
         width: 80%;
+        margin: 10%;
+        text-align: center;
     }
 }
 
