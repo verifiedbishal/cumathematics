@@ -180,6 +180,9 @@ body{
     color: rgb(85, 82, 82);
 }
 @media (max-width : 764px){
+    .section{
+        height: 45vh;
+    }
     .input__head{
         font-size: 32px;
         text-align: center;
@@ -206,13 +209,11 @@ body{
 @media (max-width : 640px){
     .input__head{
         font-size: 24px;
-        width: 80%;
-        margin: 10%;
+        width: 100%;
     }
     .input__body{
         font-size: 18px;
         width: 80%;
-        margin: 10%;
         text-align: center;
     }
 }
