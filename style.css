@@ -15,14 +15,14 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 20vh;
+    height: 10vh;
     background-color: #fff;
 }
 .navbar__left{
-    height: 20vh;
+    height: 10vh;
 }
 .navbar__left .navbar__logo{
-    height: 20vh;
+    height: 10vh;
 }
 .navbar__left .navbar__logo img{
     height: 100%;
@@ -31,7 +31,7 @@ body{
 .navbar__links{
     display: flex;
     justify-content: center;
-    height: 20vh;
+    height: 10vh;
 }
 .navbar__links ul{
     display: flex;
@@ -48,7 +48,7 @@ body{
     border: 1px solid transparent;
     border-radius: 2px;
     color: #000;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 1px;
 }
 .navbar__links ul li a:hover{
@@ -116,7 +116,7 @@ body{
 
 /* Section Style */
 .section{
-    background-image: url(../../../thumb16.jpg);
+    background-image: linear-gradient(to right bottom,rgb(81, 75, 88),rgb(36, 111, 114));
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -133,15 +133,18 @@ body{
     padding: 10px;
 }
 .input__head{
-    font-size: 32px;
+    font-size: 40px;
     color: rgb(6, 4, 26);
     letter-spacing: 3px;
 }
 .input__body{
-    font-size: 20px;
-    color: rgb(12, 16, 27);
+    width: 60%;
+    font-size: 30px;
+    color: rgb(169, 225, 233);
     letter-spacing: 1px;
-    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 .input__box{
     position: relative;
@@ -176,6 +179,12 @@ body{
     color: rgb(85, 82, 82);
 }
 @media (max-width : 764px){
+    .input__head{
+        font-size: 32px;
+    }
+    .input__body{
+        font-size: 20px;
+    }
     .input__box{
         width: 90%;
     }
@@ -189,6 +198,15 @@ body{
         line-height: 30px;
         font-size: 18px;
         padding-right: 38px;
+    }
+}
+@media (max-width : 640px){
+    .input__head{
+        font-size: 24px;
+    }
+    .input__body{
+        font-size: 18px;
+        width: 80%;
     }
 }
 
