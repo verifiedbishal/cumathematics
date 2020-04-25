@@ -33,7 +33,10 @@ body{
     display: flex;
     align-items: center;
 }
-.navbar__left .navbar__logo img{
+.navbar__left .navbar__logo a{
+    height: 10vh;
+}
+.navbar__left .navbar__logo a img{
     height: 100%;
     width: auto;
     padding: 10px;
