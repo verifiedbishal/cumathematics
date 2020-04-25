@@ -230,7 +230,7 @@ body{
 /* Article Style*/
 .article__choose{
     height: auto;
-    background-image: linear-gradient(to bottom,rgba(245, 43, 218, 0.87),rgba(17, 62, 209, 0.849));
+    background-color: #fff;
 }
 .article__choose > h2{
     margin-top: 10px;
