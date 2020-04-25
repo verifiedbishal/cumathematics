@@ -61,10 +61,10 @@
     box-shadow: 0 10px 14px 0 rgba(223, 210, 210, 0.459);
 }
 .chapters__name--single:nth-child(even){
-    border-top: 6px solid rgb(177, 4, 177);
+    border-top: 6px solid rgb(245, 43, 218); 
 }
 .chapters__name--single:nth-child(odd){
-    border-top: 6px solid rgb(4, 137, 177);
+    border-top: 6px solid rgb(17, 62, 209); 
 }
 .chapters__name--single a{
     display: flex;
